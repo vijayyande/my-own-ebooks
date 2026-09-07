@@ -2033,15 +2033,4 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** The language leaves several layout and representation details implementation-dependent, so code that relies on a particular physical bit layout may not be portable.
 
----
-
-## Updated Statistics
-
-- Previous total: **324** questions
-- Questions added in this continuation: **154**
-- New total: **478** questions
-- Numbering remains continuous.
-
-### Source note
-
-The supplied PDF describes Part I as covering built-in types, strings/vectors/arrays, expressions, statements, functions, and classes, while later parts cover IO, containers, algorithms, associative containers, dynamic memory, copy control, overloaded operations, OOP, templates, and advanced facilities. fileciteturn6file4L153-L180 fileciteturn4file4L205-L235
+53-L180 fileciteturn4file4L205-L235
