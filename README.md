@@ -1,6 +1,6 @@
 
 
-Interview Preparation ebooks for every body
+Interview Preparation ebooks for everybody
 
 
 
