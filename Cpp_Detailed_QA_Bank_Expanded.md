@@ -1,6 +1,6 @@
 # C++ Detailed Question & Answer Bank
 
-
+Hope someone benefits this
 
 ---
 
