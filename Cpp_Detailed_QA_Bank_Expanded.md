@@ -4,7 +4,7 @@ Hope someone benefits this
 
 ---
 
-## Chapter 1 — Getting Started
+## -> 1 — Getting Started
 
 ### Q1. What are the fundamental C++ elements introduced at the beginning of the book?
 
@@ -78,11 +78,11 @@ Hope someone benefits this
 
 **Answer:** An expression is a unit of computation consisting of operands and usually operators. Evaluating an expression produces a result.
 
-## Chapter 2 — Variables and Basic Types
+## -> 2 — Variables and Basic Types
 
 ### Q19. What are arithmetic types?
 
-**Answer:** They are built-in types used for numeric and character values. The chapter discusses integral and floating-point types and their properties.
+**Answer:** They are built-in types used for numeric and character values. The -> discusses integral and floating-point types and their properties.
 
 ### Q20. What is the difference between signed and unsigned integral types?
 
@@ -160,7 +160,7 @@ Hope someone benefits this
 
 **Answer:** A class groups related data and operations behind a named type. This supports abstraction and lets code work with a meaningful domain concept rather than unrelated variables.
 
-## Chapter 3 — Strings, Vectors, and Arrays
+## -> 3 — Strings, Vectors, and Arrays
 
 ### Q39. Why use `std::string` instead of a C-style character array for ordinary text?
 
@@ -234,7 +234,7 @@ Hope someone benefits this
 
 **Answer:** A built-in array has a fixed compile-time extent, while a vector is a dynamic container whose size can change at run time. Vector also provides standard container operations.
 
-## Chapter 4 — Expressions
+## -> 4 — Expressions
 
 ### Q57. What is an expression?
 
@@ -282,7 +282,7 @@ Hope someone benefits this
 
 ### Q68. What are bitwise operators used for?
 
-**Answer:** They operate on the individual bits of integral operands. The chapter covers bitwise AND, OR, XOR, complement, and shifts.
+**Answer:** They operate on the individual bits of integral operands. The -> covers bitwise AND, OR, XOR, complement, and shifts.
 
 ### Q69. What does `sizeof` provide?
 
@@ -308,7 +308,7 @@ Hope someone benefits this
 
 **Answer:** Parentheses make intended grouping explicit, reduce dependence on remembering precedence rules, and make maintenance safer.
 
-## Chapter 5 — Statements
+## -> 5 — Statements
 
 ### Q75. What is a statement?
 
@@ -374,7 +374,7 @@ Hope someone benefits this
 
 **Answer:** The standard library provides exception classes for common failure categories. Programs can catch these types directly or catch a suitable base exception type.
 
-## Chapter 6 — Functions
+## -> 6 — Functions
 
 ### Q91. What are the components of a function definition?
 
@@ -448,7 +448,7 @@ Hope someone benefits this
 
 **Answer:** When applied to a function name, `decltype` produces the function type rather than a pointer type. Adding `*` then forms a pointer to that function type.
 
-## Chapter 7 — Classes
+## -> 7 — Classes
 
 ### Q109. What is an abstract data type?
 
@@ -522,7 +522,7 @@ Hope someone benefits this
 
 **Answer:** It is a class type that satisfies the requirements needed to be used in constant-expression contexts. Such types are relevant to `constexpr` programming.
 
-## Chapter 8 — The IO Library
+## -> 8 — The IO Library
 
 ### Q127. What is the basic abstraction of the IO library?
 
@@ -580,11 +580,11 @@ Hope someone benefits this
 
 **Answer:** The stream can be used in a condition, or state member functions can be queried when finer control is required. This avoids assuming that every extraction succeeds.
 
-## Chapter 9 — Sequential Containers
+## -> 9 — Sequential Containers
 
 ### Q141. What are the major sequential containers discussed?
 
-**Answer:** The chapter covers containers such as `vector`, `deque`, `list`, and `forward_list`, along with `string` and container adaptors.
+**Answer:** The -> covers containers such as `vector`, `deque`, `list`, and `forward_list`, along with `string` and container adaptors.
 
 ### Q142. When is `vector` a good default?
 
@@ -640,13 +640,13 @@ Hope someone benefits this
 
 ### Q155. What string operations are emphasized beyond basic use?
 
-**Answer:** The chapter covers additional construction and modification operations, searching, comparison, and numeric conversion facilities.
+**Answer:** The -> covers additional construction and modification operations, searching, comparison, and numeric conversion facilities.
 
 ### Q156. How does `string` differ from `vector<char>`?
 
 **Answer:** Both can hold characters, but `string` has text-specific semantics and operations such as searching and comparison. `vector<char>` is a general sequence container.
 
-## Chapter 10 — Generic Algorithms
+## -> 10 — Generic Algorithms
 
 ### Q157. What is a generic algorithm?
 
@@ -712,7 +712,7 @@ Hope someone benefits this
 
 **Answer:** Generic algorithms commonly take a pair of iterators representing a range and optionally additional values, predicates, or output iterators that customize the operation.
 
-## Chapter 11 — Associative Containers
+## -> 11 — Associative Containers
 
 ### Q173. What is the defining property of an associative container?
 
@@ -778,7 +778,7 @@ Hope someone benefits this
 
 **Answer:** They use a hash function to map keys to integral hash values and use those values to organize buckets. Performance depends on the quality of the hash and equality behavior.
 
-## Chapter 12 — Dynamic Memory
+## -> 12 — Dynamic Memory
 
 ### Q189. What is dynamic memory?
 
@@ -844,7 +844,7 @@ Hope someone benefits this
 
 **Answer:** It demonstrates using library abstractions, including dynamic memory and smart pointers, to build a program that reads text and associates queried words with the lines on which they occur.
 
-## Chapter 13 — Copy Control
+## -> 13 — Copy Control
 
 ### Q205. What is copy control?
 
@@ -918,7 +918,7 @@ Hope someone benefits this
 
 **Answer:** Exception specifications can affect whether standard containers are willing to use move operations during reallocation. A nonthrowing move can allow more efficient relocation.
 
-## Chapter 14 — Overloaded Operations and Conversions
+## -> 14 — Overloaded Operations and Conversions
 
 ### Q223. What is operator overloading?
 
@@ -988,11 +988,11 @@ Hope someone benefits this
 
 **Answer:** It occurs when more than one conversion sequence is viable and the compiler cannot determine a unique best choice.
 
-## Chapter 15 — Object-Oriented Programming
+## -> 15 — Object-Oriented Programming
 
 ### Q240. What are the three central OOP ideas emphasized?
 
-**Answer:** The chapter identifies data abstraction, inheritance, and dynamic binding as fundamental ideas. Data abstraction separates interface from implementation; inheritance models related types; dynamic binding selects type-specific behavior at run time.
+**Answer:** The -> identifies data abstraction, inheritance, and dynamic binding as fundamental ideas. Data abstraction separates interface from implementation; inheritance models related types; dynamic binding selects type-specific behavior at run time.
 
 ### Q241. What is inheritance?
 
@@ -1062,7 +1062,7 @@ Hope someone benefits this
 
 **Answer:** Code can operate through a base interface while the actual derived implementation supplies type-specific behavior. This reduces dependence on concrete derived types.
 
-## Chapter 16 — Templates and Generic Programming
+## -> 16 — Templates and Generic Programming
 
 ### Q258. What is generic programming?
 
@@ -1132,7 +1132,7 @@ Hope someone benefits this
 
 **Answer:** Containers and algorithms are generic facilities. Templates let the library provide one general implementation that can operate with many user-selected types.
 
-## Chapter 17 — Specialized Library Facilities
+## -> 17 — Specialized Library Facilities
 
 ### Q275. What is a tuple?
 
@@ -1192,13 +1192,13 @@ Hope someone benefits this
 
 ### Q289. What additional IO topics are revisited?
 
-**Answer:** The chapter covers formatted input/output, unformatted operations, and random access to streams.
+**Answer:** The -> covers formatted input/output, unformatted operations, and random access to streams.
 
 ### Q290. What is random access to a stream?
 
 **Answer:** It means repositioning the stream's read or write position so that a program can access a particular location rather than processing only sequentially.
 
-## Chapter 18 — Tools for Large Programs
+## -> 18 — Tools for Large Programs
 
 ### Q291. Why is exception handling especially useful in large programs?
 
@@ -1264,7 +1264,7 @@ Hope someone benefits this
 
 **Answer:** Catching by reference avoids unnecessary copying and preserves polymorphic behavior when catching a base class reference.
 
-## Chapter 19 — Specialized Tools and Techniques
+## -> 19 — Specialized Tools and Techniques
 
 ### Q307. What does overloading `operator new` allow?
 
@@ -1365,9 +1365,9 @@ Hope someone benefits this
 
 ## Source organization reference
 
-The PDF's contents organize the book as follows: Part I covers Chapters 2–7 (Variables and Basic Types; Strings, Vectors, and Arrays; Expressions; Statements; Functions; Classes), Part II covers Chapters 8–12 (IO, sequential containers, generic algorithms, associative containers, dynamic memory), Part III covers Chapters 13–16 (copy control, overloaded operations/conversions, OOP, templates), and Part IV covers Chapters 17–19 (specialized library facilities, tools for large programs, and specialized tools/techniques). fileciteturn1file6L374-L382 fileciteturn4file1L92-L104 fileciteturn5file6L346-L362
+The PDF's contents organize the book as follows: Part I covers ->s 2–7 (Variables and Basic Types; Strings, Vectors, and Arrays; Expressions; Statements; Functions; Classes), Part II covers ->s 8–12 (IO, sequential containers, generic algorithms, associative containers, dynamic memory), Part III covers ->s 13–16 (copy control, overloaded operations/conversions, OOP, templates), and Part IV covers ->s 17–19 (specialized library facilities, tools for large programs, and specialized tools/techniques). fileciteturn1file6L374-L382 fileciteturn4file1L92-L104 fileciteturn5file6L346-L362
 
-The chapter-level structure used here follows the PDF's contents, including the detailed subsections for dynamic memory, copy control, overloaded operations, inheritance, templates, specialized library facilities, namespaces, multiple inheritance, RTTI, and member pointers. fileciteturn4file0L12-L26 fileciteturn4file3L183-L198 fileciteturn4file4L217-L223 fileciteturn4file6L297-L312 fileciteturn5file7L391-L396
+The ->-level structure used here follows the PDF's contents, including the detailed subsections for dynamic memory, copy control, overloaded operations, inheritance, templates, specialized library facilities, namespaces, multiple inheritance, RTTI, and member pointers. fileciteturn4file0L12-L26 fileciteturn4file3L183-L198 fileciteturn4file4L217-L223 fileciteturn4file6L297-L312 fileciteturn5file7L391-L396
 
 ### Note on version
 
@@ -1377,9 +1377,9 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 # Additional Question & Answer Set — Round 2
 
-> Continuation of the existing bank. Numbering resumes automatically from the previous highest question number. The topics follow the supplied PDF's chapter structure; for example, the PDF explicitly lists Chapter 2's compound types/const/type-dealing sections, Chapter 3's string/vector/iterator/array sections, Chapter 4's conversions and precedence, and Chapter 10's lambda/iterator/algorithm sections. fileciteturn6file0L10-L25 fileciteturn6file2L64-L77 fileciteturn7file0L34-L48 fileciteturn7file2L141-L152
+> Continuation of the existing bank. Numbering resumes automatically from the previous highest question number. The topics follow the supplied PDF's -> structure; for example, the PDF explicitly lists -> 2's compound types/const/type-dealing sections, -> 3's string/vector/iterator/array sections, -> 4's conversions and precedence, and -> 10's lambda/iterator/algorithm sections. fileciteturn6file0L10-L25 fileciteturn6file2L64-L77 fileciteturn7file0L34-L48 fileciteturn7file2L141-L152
 
-## Chapter 1 — Getting Started — More Questions
+## -> 1 — Getting Started — More Questions
 
 ### Q325. What is separate compilation?
 
@@ -1413,7 +1413,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** It invokes an operation associated with an object, normally using dot notation such as `obj.member()` or arrow notation through a pointer.
 
-## Chapter 2 — Variables and Basic Types — More Questions
+## -> 2 — Variables and Basic Types — More Questions
 
 ### Q333. What is an indeterminate value?
 
@@ -1447,7 +1447,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** Because dereferencing a pointer yields an lvalue, `decltype(*p)` is `int&` under the `decltype` rules.
 
-## Chapter 3 — Strings, Vectors, and Arrays — More Questions
+## -> 3 — Strings, Vectors, and Arrays — More Questions
 
 ### Q341. What does `string::size_type` represent?
 
@@ -1481,7 +1481,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** The representation naturally handles empty ranges and makes the number of elements equal to `end - begin` for random-access iterators.
 
-## Chapter 4 — Expressions — More Questions
+## -> 4 — Expressions — More Questions
 
 ### Q349. What is the difference between `&` as address-of and `&` as bitwise AND?
 
@@ -1515,7 +1515,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** It can reinterpret a representation as another type without providing the semantic safety of an ordinary value conversion, making the result highly dependent on the machine representation.
 
-## Chapter 5 — Statements — More Questions
+## -> 5 — Statements — More Questions
 
 ### Q357. What is the scope of a variable declared inside a `for` initializer?
 
@@ -1549,7 +1549,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** Control continues with the statement following the entire try/catch construct, rather than returning to the point where the exception was thrown.
 
-## Chapter 6 — Functions — More Questions
+## -> 6 — Functions — More Questions
 
 ### Q365. Why are references useful for function parameters?
 
@@ -1583,7 +1583,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** The compiler uses the declaration visible at the call site to determine omitted arguments, so the intended defaults need to be available there.
 
-## Chapter 7 — Classes — More Questions
+## -> 7 — Classes — More Questions
 
 ### Q373. Why must reference data members be initialized in a constructor initializer list?
 
@@ -1617,7 +1617,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** It is a condition that should remain true for every valid object of a class. Constructors establish the invariant and member operations should preserve it.
 
-## Chapter 8 — The IO Library — More Questions
+## -> 8 — The IO Library — More Questions
 
 ### Q381. Why does formatted extraction skip leading whitespace for many types?
 
@@ -1651,7 +1651,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** Otherwise the same invalid characters can remain in the stream and cause the next extraction attempt to fail again.
 
-## Chapter 9 — Sequential Containers — More Questions
+## -> 9 — Sequential Containers — More Questions
 
 ### Q389. What is the difference between `front()` and `push_front()`?
 
@@ -1685,7 +1685,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** It removes all elements from a container while leaving the container object itself alive.
 
-## Chapter 10 — Generic Algorithms — More Questions
+## -> 10 — Generic Algorithms — More Questions
 
 ### Q397. Why do algorithms take iterator ranges rather than container objects?
 
@@ -1719,7 +1719,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** It creates an insert iterator that inserts assigned values at the front of a container supporting `push_front`.
 
-## Chapter 11 — Associative Containers — More Questions
+## -> 11 — Associative Containers — More Questions
 
 ### Q405. What is key equivalence in an ordered container?
 
@@ -1753,7 +1753,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** An unordered container can rehash when its bucket/load-factor requirements indicate that a larger bucket arrangement is appropriate.
 
-## Chapter 12 — Dynamic Memory — More Questions
+## -> 12 — Dynamic Memory — More Questions
 
 ### Q413. What is ownership transfer with `unique_ptr`?
 
@@ -1787,7 +1787,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** An allocator can obtain raw unconstructed storage separately from object construction, giving more direct control over memory and object lifetimes.
 
-## Chapter 13 — Copy Control — More Questions
+## -> 13 — Copy Control — More Questions
 
 ### Q421. What is a copy operation's semantic question?
 
@@ -1821,7 +1821,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** Moving transfers resources but does not end the source object's lifetime. The source must remain a valid object whose destructor can safely run.
 
-## Chapter 14 — Overloaded Operations and Conversions — More Questions
+## -> 14 — Overloaded Operations and Conversions — More Questions
 
 ### Q429. Why is `operator=` normally a member?
 
@@ -1855,7 +1855,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** It is the type written in the conversion-operator declaration and identifies the type to which the class object can be converted.
 
-## Chapter 15 — Object-Oriented Programming — More Questions
+## -> 15 — Object-Oriented Programming — More Questions
 
 ### Q437. What is substitutability in inheritance?
 
@@ -1889,7 +1889,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** Only the base-class subobject is assigned. Derived-specific state is not part of the destination base object and is therefore sliced away.
 
-## Chapter 16 — Templates and Generic Programming — More Questions
+## -> 16 — Templates and Generic Programming — More Questions
 
 ### Q445. What is a template type parameter?
 
@@ -1923,7 +1923,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** The specialization provides alternative behavior for specified template arguments while the primary template remains the general implementation.
 
-## Chapter 17 — Specialized Library Facilities — More Questions
+## -> 17 — Specialized Library Facilities — More Questions
 
 ### Q453. Why can tuple elements have unrelated types?
 
@@ -1957,7 +1957,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** The engine supplies pseudo-random bits or values, while the distribution maps those values into the desired statistical form.
 
-## Chapter 18 — Tools for Large Programs — More Questions
+## -> 18 — Tools for Large Programs — More Questions
 
 ### Q461. What is exception propagation?
 
@@ -1991,7 +1991,7 @@ This bank follows the **C++11-era material and terminology of the supplied Fifth
 
 **Answer:** It is code that does not unnecessarily catch and translate exceptions but allows errors to propagate to a caller that is better positioned to handle them.
 
-## Chapter 19 — Specialized Tools and Techniques — More Questions
+## -> 19 — Specialized Tools and Techniques — More Questions
 
 ### Q469. Why might a class overload `operator new`?
 
