@@ -1,39 +1,6 @@
-# C++ Primer, Fifth Edition — Detailed Question & Answer Bank
+# C++ Detailed Question & Answer Bank
 
-> **Source basis:** C++ Primer, Fifth Edition (2013), by Stanley B. Lippman, Josée Lajoie, and Barbara E. Moo. This bank is an original study/interview-oriented set of questions and answers organized around the book's chapters and section structure; it does not reproduce the book's prose.
 
-The supplied PDF identifies the work as **C++ Primer, Fifth Edition** and organizes it into 19 chapters covering language basics, the C++ library, class-authoring tools, and advanced topics. fileciteturn0file0L13-L20
-
-## How to use this bank
-
-- **First pass:** answer each question without looking at the answer.
-- **Interview pass:** give the first sentence as the short answer, then expand with the remaining detail.
-- **Coding pass:** turn the conceptual questions into small compilable examples.
-- **Deep-review pass:** pay special attention to ownership, lifetime, overload resolution, templates, inheritance, and iterator invalidation.
-
-## Coverage
-
-| Chapter | Topic | Questions |
-|---:|---|---:|
-| 1 | Getting Started | 18 |
-| 2 | Variables and Basic Types | 20 |
-| 3 | Strings, Vectors, and Arrays | 18 |
-| 4 | Expressions | 18 |
-| 5 | Statements | 16 |
-| 6 | Functions | 18 |
-| 7 | Classes | 18 |
-| 8 | The IO Library | 14 |
-| 9 | Sequential Containers | 16 |
-| 10 | Generic Algorithms | 16 |
-| 11 | Associative Containers | 16 |
-| 12 | Dynamic Memory | 16 |
-| 13 | Copy Control | 18 |
-| 14 | Overloaded Operations and Conversions | 17 |
-| 15 | Object-Oriented Programming | 18 |
-| 16 | Templates and Generic Programming | 17 |
-| 17 | Specialized Library Facilities | 16 |
-| 18 | Tools for Large Programs | 16 |
-| 19 | Specialized Tools and Techniques | 18 |
 
 ---
 
